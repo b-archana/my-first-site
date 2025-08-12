@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(155, 236, 61);
+    color: purple;
+}
+
+section{
+    height: 50vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/31/23/23/watercolor-3445376_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body{
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/01/24/10/58/sand-2005066_640.jpg"); */
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/06/10/08/background-1311251_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .itemslist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
